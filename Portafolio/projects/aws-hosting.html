@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Hosting Web Estático en AWS | Santiago Peirone</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+<header>
+    <nav class="navbar">
+
+        <div class="logo">
+            SP
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="../index.html#about">Sobre mí</a></li>
+            <li><a href="../index.html#skills">Skills</a></li>
+            <li><a href="../index.html#projects">Proyectos</a></li>
+            <li><a href="../index.html#contact">Contacto</a></li>
+        </ul>
+
+    </nav>
+</header>
+
+<section class="project-page">
+
+    <div class="container">
+
+        <a href="../index.html#projects" class="back-link">
+            ← Volver a proyectos
+        </a>
+
+        <h1>Hosting Web Estático en AWS</h1>
+
+        <p class="project-subtitle">
+            Implementación de una arquitectura serverless para alojar un sitio web utilizando servicios administrados de AWS.
+        </p>
+
+        <div class="project-badges">
+            <span>AWS</span>
+            <span>S3</span>
+            <span>CloudFront</span>
+            <span>ACM</span>
+            <span>Budgets</span>
+        </div>
+
+        <img
+            src="../assets/imagen/projects/aws-hosting/architecture.png"
+            alt="Arquitectura AWS"
+            class="project-image"
+        >
+
+        <h2>Descripción</h2>
+
+        <p>
+            El proyecto implementa una arquitectura serverless para publicar contenido estático utilizando Amazon S3 como origen y CloudFront como CDN para distribución segura mediante HTTPS.
+        </p>
+
+        <h2>Servicios utilizados</h2>
+
+        <div class="service-grid">
+
+            <div class="service-card">Amazon S3</div>
+
+            <div class="service-card">Amazon CloudFront</div>
+
+            <div class="service-card">AWS Certificate Manager</div>
+
+            <div class="service-card">AWS Budgets</div>
+
+            <div class="service-card">Namecheap DNS</div>
+
+        </div>
+
+        <h2>Aprendizajes</h2>
+
+        <div class="learning-grid">
+
+            <div class="learning-card">
+                Configuración de buckets S3 para hosting web
+            </div>
+
+            <div class="learning-card">
+                Distribución global mediante CloudFront
+            </div>
+
+            <div class="learning-card">
+                Implementación de certificados SSL/TLS
+            </div>
+
+            <div class="learning-card">
+                Configuración DNS personalizada
+            </div>
+
+            <div class="learning-card">
+                Control y monitoreo de costos
+            </div>
+
+        </div>
+
+        <a href="#" class="github-btn">
+            Ver repositorio en GitHub
+        </a>
+
+    </div>
+
+</section>
+
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <div class="footer-info">
+            <h3>Santiago Peirone</h3>
+
+            <p>
+                Cloud & IT Infrastructure Enthusiast
+            </p>
+
+            <p>
+                Estudiante de Sistemas orientado a Cloud Computing,
+                Infraestructura y Automatización.
+            </p>
+        </div>
+
+        <div class="footer-contact">
+
+            <h4>Contacto</h4>
+
+            <ul>
+
+                <li>
+                    <a href="mailto:santiagopeirone9@gmail.com">
+                        santiagopeirone9@gmail.com
+                    </a>
+                </li>
+
+                <li>
+                    <a href="tel:+5492475413186">
+                        +54 9 2475 413186
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://www.linkedin.com/in/santiagopeirone/" target="_blank">
+                        LinkedIn
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://github.com/SantiagoPeirone" target="_blank">
+                        GitHub
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>
+            © <span id="year"></span> Santiago Peirone
+        </p>
+    </div>
+
+</footer>
+
+<script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+
+</html>
