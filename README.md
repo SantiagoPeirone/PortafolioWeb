@@ -1,5 +1,7 @@
 # PortafolioWeb
+
 Pagina web con información profesional
+
 <img width="1189" height="665" alt="architecture" src="https://github.com/user-attachments/assets/1dccb819-e71a-4152-801a-5bf9655a15e7" />
 
 Descripción
